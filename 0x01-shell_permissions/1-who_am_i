@@ -1,2 +1,2 @@
-#!/bin/bas
-whoami
+#!/bin/bash
+id -un
