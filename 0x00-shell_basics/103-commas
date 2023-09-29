@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -1Ap | awk '{ printf "%s, ", $0 } END { printf "\n" }' | sed 's/\/,/\//g'
