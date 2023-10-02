@@ -1,0 +1,2 @@
+#!/bin/bash
+echo -e '#!/bin/bash\nls -la > ls_cwd_content' > create_ls_cwd_content.sh; chmod +x create_ls_cwd_content.sh
