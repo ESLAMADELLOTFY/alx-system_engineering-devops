@@ -1,2 +1,2 @@
 #!/bin/bash
-echo `tail -n+3 iacta|head -n1`
+nl iacta | grep "3 " | cut -f2
